@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  width: 12rem;
+  height: 12rem;
+  margin: 2rem;
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 2rem;
+  box-shadow: inset 0 -3em 3em rgba(65, 75, 65, 0.3), 0 0 0 2px white,
+    0.3em 0.3em 1em rgba(71, 2, 51, 0.6);
+}
+
+.back {
+  background-color: rgb(187, 181, 181);
+  width: 7rem;
+  height: 7rem;
+  align-content: center;
+  opacity: 0.5;
+}
+
+section div > div {
+  width: 7rem;
+  height: 7rem;
+  background-color: rgb(190, 32, 230);
+  transition: all linear 0.5s;
+  align-content: center;
+  opacity: 0.5;
+}
+
+.section1 div > div:hover {
+  transform-origin: center;
+  transform: rotate(50deg);
+}
+
+.section2 div > div:hover {
+  transform-origin: center;
+  transform: scaleY(-0.5);
+}
+
+.section3 div > div:hover {
+  transform-origin: center;
+  transform: scaleX(-0.5);
+}
+
+.section4 div > div:hover {
+  transform-origin: center;
+  transform: scale(2);
+}
+
+.section5 div > div:hover {
+  transform-origin: center;
+  transform: scaleX(2);
+}
+
+.section6 div > div:hover {
+  transform-origin: center;
+  transform: translateX(5rem);
+}
+
+.section7 div > div:hover {
+  transform-origin: center;
+  transform: translate(30px, 45px) scale(1);
+}
+
+.section8 div > div:hover {
+  transform-origin: center;
+  transform: skewX(-55deg);
+}
+
+.section9 div > div:hover {
+  transform-origin: center;
+  transform: skewY(55deg);
+}
+
+.section10 div > div:hover {
+  transform-origin: center;
+  transform: scaleY(2);
+}
+
+.section11 div > div:hover {
+  transform-origin: center;
+  transform: translateY(5rem);
+}
+
+.section12 div > div:hover {
+  transform-origin: center;
+  transform: skewY(50deg) translate(55px) scale(3);
+}
+
+.section13 div > div:hover {
+  transform-origin: center;
+  transform: perspective(300px) rotateY(50deg);
+}
+
+.section14 div > div:hover {
+  transform-origin: center;
+  transform: perspective(300px) rotateX(50deg);
+}
+
+.section15 div > div:hover {
+  transform: rotate(30deg);
+  transform-origin: 100% 0%;
+}
+
+.section16 div > div:hover {
+  transform: rotate(30deg);
+  transform-origin: 0% 100%;
+}
+
+.section17 div > div:hover {
+  transform-origin: center;
+  transform: perspective(300px) rotateX(50deg);
+}
+
+.section18 div > div:hover {
+  transform-origin: top;
+  transform: perspective(150px) rotateX(45deg);
+}
+
+.section19 div > div:hover {
+  transform-origin: left;
+  transform: perspective(300px) rotateY(30deg);
+}
+
+.section20 div > div:hover {
+  transform-origin: left;
+  transform: scaleX(1.5);
+}
+
+.section21 div > div:hover {
+  transform-origin: right;
+  transform: scaleX(1.5);
+}
+
+.section22 div > div:hover {
+  transform: scale(1.7);
+  transform-origin: 0% 100%;
+}
+
+.section23 div > div:hover {
+  transform: scale(1.7);
+  transform-origin: 100% -0%;
+}
+
+.section24 div > div:hover {
+  transform-origin: right;
+  transform: perspective(150px) rotateY(45deg);
+}
+
+.section25 div > div:hover {
+  transform-origin: top;
+  transform: scaleY(1.5);
+}
+
+.section26 div > div:hover {
+  transform-origin: bottom;
+  transform: scaleY(1.5);
+}
