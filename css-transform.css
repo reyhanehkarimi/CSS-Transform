@@ -102,7 +102,7 @@ section div > div {
 }
 
 .section14 div > div:hover {
-  transform-origin: center;
+  transform-origin: top;
   transform: perspective(300px) rotateX(50deg);
 }
 
@@ -117,7 +117,7 @@ section div > div {
 }
 
 .section17 div > div:hover {
-  transform-origin: center;
+  transform-origin: bottom;
   transform: perspective(300px) rotateX(50deg);
 }
 
